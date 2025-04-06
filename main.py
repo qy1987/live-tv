@@ -611,29 +611,10 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('�
              ["影视频道,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
              ["少儿频道,#genre#"] + read_txt_to_array('专区/♪儿童专享.txt') + ['\n'] + \
              ["咪咕直播,#genre#"] + read_txt_to_array('专区/♪咪咕直播.txt') + ['\n'] + \
-             ["SPORTS,#genre#"] + read_txt_to_array('专区/♪sports.txt') + ['\n'] + \
-             ["定制台,#genre#"] + read_txt_to_array('专区/♪定制源.txt') + ['\n'] + \
-             ["定制P3P,#genre#"] + read_txt_to_array('专区/p3p.txt') + ['\n'] + \
-             ["英语频道,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
-             ["4K(Test),#genre#"] + read_txt_to_array('专区/4K.txt') + ['\n'] + \
-             ["电视剧,#genre#"] + read_txt_to_array('专区/♪电视剧.txt') + ['\n'] + \
-             ["优质个源,#genre#"] + read_txt_to_array('专区/♪优质源.txt') + ['\n'] + \
              ["央视频道,#genre#"] + sort_data(ys_dictionary,correct_name_data(corrections_name,ys_lines)) + ['\n'] + \
              ["卫视频道,#genre#"] + sort_data(ws_dictionary,correct_name_data(corrections_name,ws_lines)) + ['\n'] + \
+             ["北京频道,#genre#"] + sorted(set(correct_name_data(corrections_name,bj_lines))) + ['\n'] + \
              ["上海频道,#genre#"] + sort_data(sh_dictionary,correct_name_data(corrections_name,sh_lines)) + ['\n'] + \
-             ["体育频道,#genre#"] + sort_data(ty_dictionary,correct_name_data(corrections_name,ty_lines)) + ['\n'] + \
-             ["电影频道,#genre#"] + sort_data(dy_dictionary,correct_name_data(corrections_name,dy_lines)) + ['\n'] + \
-             ["电视剧频道,#genre#"] + sort_data(dsj_dictionary,correct_name_data(corrections_name,dsj_lines)) + ['\n'] + \
-             ["明星,#genre#"] + sort_data(mx_dictionary,correct_name_data(corrections_name,mx_lines)) + ['\n'] + \
-             ["主题片,#genre#"] + sort_data(ztp_dictionary,correct_name_data(corrections_name,ztp_lines)) + ['\n'] + \
-             ["港澳台,#genre#"] + sort_data(gat_dictionary,correct_name_data(corrections_name,gat_lines)) + ['\n'] + \
-             ["国际台,#genre#"] + sort_data(gj_dictionary,set(correct_name_data(corrections_name,gj_lines))) + ['\n'] + \
-             ["纪录片,#genre#"] + sort_data(jlp_dictionary,set(correct_name_data(corrections_name,jlp_lines)))+ ['\n'] + \
-             ["动画片,#genre#"] + sort_data(dhp_dictionary,set(correct_name_data(corrections_name,dhp_lines)))+ ['\n'] + \
-             ["戏曲频道,#genre#"] + sort_data(xq_dictionary,set(correct_name_data(corrections_name,xq_lines))) + ['\n'] + \
-             ["综艺频道,#genre#"] + sorted(set(correct_name_data(corrections_name,zy_lines))) + ['\n'] + \
-             ["音乐频道,#genre#"] + sorted(set(yy_lines)) + ['\n'] + \
-             ["游戏频道,#genre#"] + sorted(set(game_lines)) + ['\n'] + \
              ["湖南频道,#genre#"] + sort_data(hn_dictionary,set(correct_name_data(corrections_name,hn_lines))) + ['\n'] + \
              ["湖北频道,#genre#"] + sort_data(hb_dictionary,set(correct_name_data(corrections_name,hb_lines))) + ['\n'] + \
              ["广东频道,#genre#"] + sort_data(gd_dictionary,set(correct_name_data(corrections_name,gd_lines))) + ['\n'] + \
@@ -647,7 +628,6 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('�
              ["陕西频道,#genre#"] + sorted(set(correct_name_data(corrections_name,sx_lines))) + ['\n'] + \
              ["山西频道,#genre#"] + sorted(set(correct_name_data(corrections_name,shanxi_lines))) + ['\n'] + \
              ["云南频道,#genre#"] + sorted(set(correct_name_data(corrections_name,yunnan_lines))) + ['\n'] + \
-             ["北京频道,#genre#"] + sorted(set(correct_name_data(corrections_name,bj_lines))) + ['\n'] + \
              ["重庆频道,#genre#"] + sorted(set(correct_name_data(corrections_name,cq_lines))) + ['\n'] + \
              ["福建频道,#genre#"] + sorted(set(correct_name_data(corrections_name,fj_lines))) + ['\n'] + \
              ["甘肃频道,#genre#"] + sorted(set(correct_name_data(corrections_name,gs_lines))) + ['\n'] + \
@@ -663,6 +643,26 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('�
              ["四川频道,#genre#"] + sorted(set(correct_name_data(corrections_name,sc_lines))) + ['\n'] + \
              ["天津频道,#genre#"] + sorted(set(correct_name_data(corrections_name,tj_lines))) + ['\n'] + \
              ["新疆频道,#genre#"] + sorted(set(correct_name_data(corrections_name,xj_lines))) + ['\n'] + \
+             ["SPORTS,#genre#"] + read_txt_to_array('专区/♪sports.txt') + ['\n'] + \
+             ["定制台,#genre#"] + read_txt_to_array('专区/♪定制源.txt') + ['\n'] + \
+             ["定制P3P,#genre#"] + read_txt_to_array('专区/p3p.txt') + ['\n'] + \
+             ["英语频道,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
+             ["4K(Test),#genre#"] + read_txt_to_array('专区/4K.txt') + ['\n'] + \
+             ["电视剧,#genre#"] + read_txt_to_array('专区/♪电视剧.txt') + ['\n'] + \
+             ["优质个源,#genre#"] + read_txt_to_array('专区/♪优质源.txt') + ['\n'] + \
+             ["体育频道,#genre#"] + sort_data(ty_dictionary,correct_name_data(corrections_name,ty_lines)) + ['\n'] + \
+             ["电影频道,#genre#"] + sort_data(dy_dictionary,correct_name_data(corrections_name,dy_lines)) + ['\n'] + \
+             ["电视剧频道,#genre#"] + sort_data(dsj_dictionary,correct_name_data(corrections_name,dsj_lines)) + ['\n'] + \
+             ["明星,#genre#"] + sort_data(mx_dictionary,correct_name_data(corrections_name,mx_lines)) + ['\n'] + \
+             ["主题片,#genre#"] + sort_data(ztp_dictionary,correct_name_data(corrections_name,ztp_lines)) + ['\n'] + \
+             ["港澳台,#genre#"] + sort_data(gat_dictionary,correct_name_data(corrections_name,gat_lines)) + ['\n'] + \
+             ["国际台,#genre#"] + sort_data(gj_dictionary,set(correct_name_data(corrections_name,gj_lines))) + ['\n'] + \
+             ["纪录片,#genre#"] + sort_data(jlp_dictionary,set(correct_name_data(corrections_name,jlp_lines)))+ ['\n'] + \
+             ["动画片,#genre#"] + sort_data(dhp_dictionary,set(correct_name_data(corrections_name,dhp_lines)))+ ['\n'] + \
+             ["戏曲频道,#genre#"] + sort_data(xq_dictionary,set(correct_name_data(corrections_name,xq_lines))) + ['\n'] + \
+             ["综艺频道,#genre#"] + sorted(set(correct_name_data(corrections_name,zy_lines))) + ['\n'] + \
+             ["音乐频道,#genre#"] + sorted(set(yy_lines)) + ['\n'] + \
+             ["游戏频道,#genre#"] + sorted(set(game_lines)) + ['\n'] + \
              ["解说频道,#genre#"] + sorted(set(js_lines)) + ['\n'] + \
              ["春晚,#genre#"] + sort_data(cw_dictionary,set(cw_lines))  + ['\n'] + \
              ["直播中国,#genre#"] + sorted(set(correct_name_data(corrections_name,zb_lines))) + ['\n'] + \
