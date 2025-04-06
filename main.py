@@ -611,8 +611,6 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('�
              ["影视频道,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
              ["少儿频道,#genre#"] + read_txt_to_array('专区/♪儿童专享.txt') + ['\n'] + \
              ["咪咕直播,#genre#"] + read_txt_to_array('专区/♪咪咕直播.txt') + ['\n'] + \
-             ["央视频道,#genre#"] + sort_data(ys_dictionary,correct_name_data(corrections_name,ys_lines)) + ['\n'] + \
-             ["卫视频道,#genre#"] + sort_data(ws_dictionary,correct_name_data(corrections_name,ws_lines)) + ['\n'] + \
              ["北京频道,#genre#"] + sorted(set(correct_name_data(corrections_name,bj_lines))) + ['\n'] + \
              ["上海频道,#genre#"] + sort_data(sh_dictionary,correct_name_data(corrections_name,sh_lines)) + ['\n'] + \
              ["湖南频道,#genre#"] + sort_data(hn_dictionary,set(correct_name_data(corrections_name,hn_lines))) + ['\n'] + \
