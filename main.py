@@ -579,7 +579,7 @@ version=formatted_time+","+about_video1
 about="关于本源(清影),"+about_video2
 # 瘦身版
 # 
-all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +read_txt_to_array('专区/about.txt')+ ['\n'] +\
+all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+read_txt_to_array('专区/about.txt')+ ['\n'] +\
              ["央视综合,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
              ["卫视综合,#genre#"] + read_txt_to_array('专区/♪优质卫视.txt') + ['\n'] + \
              ["电影综合,#genre#"] + read_txt_to_array('专区/♪专享源①.txt') + ['\n'] + \
@@ -604,7 +604,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +read_txt_to_ar
 # 合并所有对象中的行文本（去重，排序后拼接）
 # ["奥运频道,#genre#"] + sort_data(Olympics_2024_Paris_dictionary,set(correct_name_data(corrections_name,Olympics_2024_Paris_lines))) + ['\n'] + \
 # ["🧨2025春晚🧨,#genre#"] + read_txt_to_array('专区/2025春晚.txt') + ['\n'] + \             
-all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('专区/about.txt') + ['\n'] +\
+all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv]+read_txt_to_array('专区/about.txt') + ['\n'] +\
              ["央视综合,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
              ["卫视综合,#genre#"] + read_txt_to_array('专区/♪优质卫视.txt') + ['\n'] + \
              ["电影综合,#genre#"] + read_txt_to_array('专区/♪专享源①.txt') + ['\n'] + \
