@@ -1,5 +1,5 @@
 更新时间,#genre#
-20250406 07:51:39,url
+20250406 12:12:15,url
 
 
 freetv_cctv,#genre#
@@ -534,6 +534,7 @@ CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-20.ctv
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-22.m3u8
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-5.m3u8
 CCTV第一剧场,https://stream1.freetv.fun/cctvdi-yi-ju-chang-7.ctv
+CCTV风云足球,https://stream1.freetv.fun/cctvfeng-yun-zu-qiu-1.m3u8
 CCTV风云足球,https://stream1.freetv.fun/cctvfeng-yun-zu-qiu-11.m3u8
 CCTV风云足球,https://stream1.freetv.fun/cctvfeng-yun-zu-qiu-17.ctv
 CCTV风云足球,https://stream1.freetv.fun/cctvfeng-yun-zu-qiu-18.m3u8
