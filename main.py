@@ -607,7 +607,9 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +read_txt_to_ar
 all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('专区/about.txt') + ['\n'] +\
              ["央视综合,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
              ["卫视综合,#genre#"] + read_txt_to_array('专区/♪优质卫视.txt') + ['\n'] + \
+             ["咪咕央卫,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
              ["电影综合,#genre#"] + read_txt_to_array('专区/♪专享源①.txt') + ['\n'] + \
+             ["剧集综合,#genre#"] + read_txt_to_array('专区/♪电视剧.txt') + ['\n'] + \
              ["影视频道,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
              ["少儿频道,#genre#"] + read_txt_to_array('专区/♪儿童专享.txt') + ['\n'] + \
              ["咪咕直播,#genre#"] + read_txt_to_array('专区/♪咪咕直播.txt') + ['\n'] + \
@@ -644,9 +646,7 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('�
              ["SPORTS,#genre#"] + read_txt_to_array('专区/♪sports.txt') + ['\n'] + \
              ["定制台,#genre#"] + read_txt_to_array('专区/♪定制源.txt') + ['\n'] + \
              ["定制P3P,#genre#"] + read_txt_to_array('专区/p3p.txt') + ['\n'] + \
-             ["英语频道,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
              ["4K(Test),#genre#"] + read_txt_to_array('专区/4K.txt') + ['\n'] + \
-             ["电视剧,#genre#"] + read_txt_to_array('专区/♪电视剧.txt') + ['\n'] + \
              ["优质个源,#genre#"] + read_txt_to_array('专区/♪优质源.txt') + ['\n'] + \
              ["体育频道,#genre#"] + sort_data(ty_dictionary,correct_name_data(corrections_name,ty_lines)) + ['\n'] + \
              ["电影频道,#genre#"] + sort_data(dy_dictionary,correct_name_data(corrections_name,dy_lines)) + ['\n'] + \
@@ -666,7 +666,7 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +read_txt_to_array('�
              ["直播中国,#genre#"] + sorted(set(correct_name_data(corrections_name,zb_lines))) + ['\n'] + \
              ["MTV,#genre#"] + sorted(set(correct_name_data(corrections_name,mtv_lines))) + ['\n'] + \
              ["收音机频道,#genre#"] + sort_data(radio_dictionary,set(radio_lines))  + ['\n'] + \
-             ["❤️以家人之名,#genre#"] + read_txt_to_array('专区/特供频道/♪以家人之名.txt')
+             ["聚居,#genre#"] + read_txt_to_array('专区/特供频道/♪以家人之名.txt')
 
 # # custom定制
 # custom_lines_zhang =  ["更新时间,#genre#"] +[version] + ['\n'] +\
