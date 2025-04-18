@@ -2,7 +2,7 @@ name: 'Daily Job(urlSnapshot)'
 
 on:
   schedule:
-    - cron: '00 4 * * 0'  # 每周日 4:00 (UTC) 执行
+    - cron: '15 23 * * *'  # 每天UTC时间23:15运行
   workflow_dispatch:
     inputs:
       environment:
